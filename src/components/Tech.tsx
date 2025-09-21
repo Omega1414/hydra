@@ -25,7 +25,7 @@ const Tech = () => {
  <div
   className="relative w-full h-full xl:h-screen  
   px-4 md:px-[84px] pt-10 xxs:pt-[100px] xl:pt-0
-  flex flex-col items-center justify-center xl:justify-start gap-6 md:gap-[20px] lg:gap-10 xl:gap-25 2xl:gap-12
+  flex flex-col items-center justify-center xl:justify-start gap-10 md:gap-[20px] lg:gap-10 xl:gap-25 2xl:gap-12
   max-w-[1440px] mx-auto"  id="technologies">
       {/* Image container */}
       <div className="relative w-full h-[200px] xl:w-[1000px] 2xl:w-[1240px] 2xl:h-[250px] max-w-[1240px] mx-auto mt-10 xl:mt-15 ">
@@ -34,7 +34,7 @@ const Tech = () => {
           alt="Hydra Background"
           width={1240}
           height={460}
-          className="w-full h-full object-cover rounded-[160px]"
+          className="w-full h-full object-cover rounded-[70px] xl:rounded-[120px]"
         />
 
         {/* Texts on top of image */}

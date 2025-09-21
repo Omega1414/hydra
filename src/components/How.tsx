@@ -40,7 +40,7 @@ const How = () => {
   return (
  <div
   className="relative w-full h-full xl:h-screen  
-  px-4 md:px-[84px] pt-10 xxs:pt-[100px] xl:pt-[40px] 2xl:pt-[40px]
+  px-4 md:px-[84px] pt-20 xxs:pt-[100px] xl:pt-[40px] 2xl:pt-[40px]
   flex flex-col items-center justify-center gap-6 md:gap-[20px] 2xl:gap-15
   max-w-[1440px] mx-auto" 
   id="howTo">
