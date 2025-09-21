@@ -131,6 +131,9 @@ const Hero = () => {
               alt="hero"
               width={350}
               height={426}
+              priority
+                placeholder="blur"
+                blurDataURL="/hero2.png"
               className="relative w-[220px] sm:w-[260px] lg:w-[300px] 2xl:w-[350px] z-10 rounded-[80px_80px_80px_200px] shadow-[0_4px_4px_rgba(0,0,0,0.25)]"
             />
             <motion.img
