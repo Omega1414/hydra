@@ -6,16 +6,11 @@ import How from "@/components/How";
 import Intro from "@/components/Intro";
 import Tech from "@/components/Tech";
 import Why from "@/components/Why";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="relative flex flex-col w-full">
-
-      {/* Header */}
       <Header />
-
-      {/* Hero */}
       <Hero />
       <Intro />
       <Why />

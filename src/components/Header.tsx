@@ -54,17 +54,50 @@ const Header: React.FC = () => {
         <Image src="/name.svg" alt="MyName" width={60} height={60} />
       </div>
 
-      {/* Desktop Navigation */}
-      <div className='hidden lg:flex font-bold text-[12px] items-center font-montserrat flex-row gap-[41px]'>
-        <h1 onClick={() => handleScroll("about")} className='cursor-pointer'>ABOUT</h1>
-        <h1 onClick={() => handleScroll("services")} className='cursor-pointer'>SERVICES</h1>
-        <h1 onClick={() => handleScroll("technologies")} className='cursor-pointer'>TECHNOLOGIES</h1>
-        <h1 onClick={() => handleScroll("howTo")} className='cursor-pointer'>HOW TO</h1>
-      </div>
-      <div className='hidden lg:flex gap-[30px] justify-center items-center'>
-        <button className='w-[155px] h-[48px] rounded-[40px] border-2 border-solid border-white text-[12px] font-montserrat font-bold' onClick={() => handleScroll("footer")}>CONTACT US</button>
-        <button className='w-[155px] h-[48px] rounded-[40px] text-[#343045] text-[12px] font-montserrat font-bold bg-[linear-gradient(90deg,#8176AF_0%,#C0B7E8_100%)]' onClick={() => handleScroll("form")}>JOIN HYDRA</button>
-      </div>
+     {/* Desktop Navigation */}
+<div className='hidden lg:flex font-bold text-[12px] items-center font-montserrat flex-row gap-[41px]'>
+  <h1
+    onClick={() => handleScroll("about")}
+    className='cursor-pointer transition-all duration-300 hover:text-[#C0B7E8] hover:scale-105'
+  >
+    ABOUT
+  </h1>
+  <h1
+    onClick={() => handleScroll("services")}
+    className='cursor-pointer transition-all duration-300 hover:text-[#C0B7E8] hover:scale-105'
+  >
+    SERVICES
+  </h1>
+  <h1
+    onClick={() => handleScroll("technologies")}
+    className='cursor-pointer transition-all duration-300 hover:text-[#C0B7E8] hover:scale-105'
+  >
+    TECHNOLOGIES
+  </h1>
+  <h1
+    onClick={() => handleScroll("howTo")}
+    className='cursor-pointer transition-all duration-300 hover:text-[#C0B7E8] hover:scale-105'
+  >
+    HOW TO
+  </h1>
+</div>
+     <div className='hidden lg:flex gap-[30px] justify-center items-center'>
+  <button
+    onClick={() => handleScroll("footer")}
+    className='cursor-pointer w-[155px] h-[48px] rounded-[40px] border-2 border-solid border-white text-[12px] font-montserrat font-bold
+               transition-all duration-300 hover:bg-white hover:text-[#3C3650] hover:scale-105'
+  >
+    CONTACT US
+  </button>
+  <button
+    onClick={() => handleScroll("form")}
+    className='cursor-pointer w-[155px] h-[48px] rounded-[40px] text-[#343045] text-[12px] font-montserrat font-bold
+               bg-[linear-gradient(90deg,#8176AF_0%,#C0B7E8_100%)] transition-all duration-300
+               hover:scale-105 hover:brightness-110'
+  >
+    JOIN HYDRA
+  </button>
+</div>
 
       {/* Mobile Hamburger Icon */}
       <div className='lg:hidden flex items-center'>

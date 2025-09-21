@@ -3,10 +3,10 @@ import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const montserrat = Montserrat({
-  subsets: ['latin'], // Required for Google Fonts
-  weight: ['400', '700'], // Add weights as needed (e.g., regular and bold)
-  variable: '--font-montserrat', // CSS variable for Tailwind
-  display: 'swap', // Optional: Improves loading behavior
+  subsets: ['latin'], 
+  weight: ['400', '700'], 
+  variable: '--font-montserrat', 
+  display: 'swap', 
 });
 const geistSans = Geist({
   variable: "--font-geist-sans",

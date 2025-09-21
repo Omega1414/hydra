@@ -120,9 +120,9 @@ const Why = () => {
                 boxShadow: "0 0 15px rgba(192, 183, 232, 0.8)",
               }}
               whileTap={{ scale: 0.95 }}
-              className="w-[154px] h-[48px] rounded-[40px] bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] flex items-center justify-center transition-all duration-300"
+              className="w-[154px] h-[48px] rounded-[40px]  bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] flex items-center justify-center transition-all duration-300"
             >
-              <span className="font-montserrat font-bold text-[12px] leading-[15px] text-[#343045]">
+              <span className="font-montserrat font-bold  text-[12px] leading-[15px] text-[#343045]">
                 TRY IT NOW
               </span>
             </motion.button>
@@ -174,7 +174,7 @@ const Why = () => {
                   boxShadow: "0 0 15px rgba(192, 183, 232, 0.8)",
                 }}
                 whileTap={{ scale: 0.95 }}
-                className="w-[154px] h-[48px] rounded-[40px] bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] flex items-center justify-center transition-all duration-300"
+                className="w-[154px] h-[48px] cursor-pointer rounded-[40px] bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] flex items-center justify-center transition-all duration-300"
               >
                 <span className="font-montserrat font-bold text-[12px] leading-[15px] text-[#343045]">
                   TRY IT NOW

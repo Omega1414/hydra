@@ -119,8 +119,6 @@ const Intro = () => {
             imagination into reality. Our team is dedicated to building
             experiences that are not just visually stunning, but also deeply
             engaging, intuitive, and purposeful.
-            <br />
-            <br />
             We combine cutting-edge design with advanced development to create
             immersive worlds where interaction feels natural and discovery feels
             limitless. From concept to deployment, every detail is carefully
@@ -135,7 +133,7 @@ const Intro = () => {
               boxShadow: "0 0 15px rgba(192, 183, 232, 0.8)",
             }}
             whileTap={{ scale: 0.95 }}
-            className="w-[214px] h-[48px] bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] rounded-[40px] mt-5 transition-all duration-300"
+            className="w-[214px] h-[48px] cursor-pointer bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] rounded-[40px] mt-5 transition-all duration-300"
           >
             <h3 className="h-[15px] font-montserrat font-bold text-[12px] leading-[15px] text-[#343045]">
               LET’S GET IN TOUCH

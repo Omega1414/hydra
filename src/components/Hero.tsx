@@ -103,7 +103,7 @@ const Hero = () => {
   rounded-[40px] text-[#343045] text-[11px] sm:text-[12px] 
   font-montserrat font-bold 
   bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] 
-  transition-all duration-300"
+  transition-all duration-300 cursor-pointer"
 >
   BUILD YOUR WORLD
 </motion.button>
@@ -150,7 +150,7 @@ const Hero = () => {
               alt="Vector 2"
               className="absolute w-[150px] sm:w-[140px] lg:w-[200px] 2xl:w-[260px] top-[140px] 2xl:top-[90px] left-[180px] sm:left-[200px] lg:left-[300px] -translate-x-1/2 -translate-y-1/2 z-0 opacity-80"
               animate={{ rotate: 360 }}
-              transition={{ repeat: 0, duration: 2, ease: "linear" }}
+              transition={{ repeat: 0, duration: 1, ease: "linear" }}
             />
 
             {/* 🔥 Vector 3 - rotate animation */}
@@ -159,7 +159,7 @@ const Hero = () => {
               alt="Vector 3"
               className="absolute w-[300px] sm:w-[300px] lg:w-[400px] 2xl:w-[550px] top-[200px] sm:top-[200px] lg:top-[250px] left-[180px] sm:left-[180px] lg:left-[280px] -translate-x-1/2 -translate-y-1/2 z-0 opacity-80"
               animate={{ rotate: 360 }}
-              transition={{ repeat: 0, duration: 2, ease: "linear" }}
+              transition={{ repeat: 0, duration: 0, ease: "linear" }}
             />
           </div>
         </motion.div>

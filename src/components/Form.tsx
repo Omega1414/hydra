@@ -1,6 +1,7 @@
+"use client"
 import Image from 'next/image';
 import React from 'react'
-
+import { motion } from "framer-motion";
 const Form = () => {
   return (
     <section className="min-h-screen w-full flex items-center justify-center px-4 py-8 " id="form">
@@ -79,14 +80,22 @@ const Form = () => {
           />
 
           {/* Submit */}
-          <div className="flex justify-center">
-            <button
-              type="submit"
-              className="px-10 py-3 rounded-full bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] text-[#343045] font-montserrat font-bold transition-transform hover:scale-105 text-sm md:text-[10px]"
-            >
+          <motion.div className="flex justify-center">
+           <motion.button
+  whileHover={{
+    scale: 1.05,
+    boxShadow: "0 0 15px rgba(192, 183, 232, 0.8)",
+  }}
+  whileTap={{ scale: 0.95 }}
+  className="w-[180px] sm:w-[200px] h-[40px] sm:h-[44px] 
+  rounded-[40px] text-[#343045] text-[11px] sm:text-[12px] 
+  font-montserrat font-bold 
+  bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] 
+  transition-all duration-300 cursor-pointer"
+>
               SEND TO HYDRA
-            </button>
-          </div>
+            </motion.button>
+          </motion.div>
         </form>
       </div>
     </section>
