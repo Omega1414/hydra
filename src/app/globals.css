@@ -1,26 +1,26 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #302C42;
+  --foreground: #ffffff;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  /* Map Tailwind's font-sans (or a custom one) to your Montserrat variable */
+   --breakpoint-xxs: 400px;
+  --font-sans: var(--font-montserrat), sans-serif;
+  --text-gradient: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+  /* Optional: If you want a custom utility like font-montserrat */
+  --font-montserrat: var(--font-montserrat), sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  overflow-x: hidden
 }
