@@ -69,11 +69,10 @@ const Why = () => {
 
         <div className="hidden md:flex w-[670px]">
           <p className="font-montserrat font-normal text-[16px] leading-[26px] text-white">
-            Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed
-            pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo quis imperdiet massa
-            tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet est placerat
-            in.
-          </p>
+       Hydra VR transforms ideas into immersive virtual spaces where teams can collaborate, learn, and explore without limits.
+        By merging realistic design with advanced technology, it allows projects to be more engaging, efficient, and impactful. 
+       
+            </p>
         </div>
       </div>
 
